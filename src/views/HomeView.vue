@@ -76,7 +76,7 @@
           <h2
             class="txt-custom txt-title text-5xl font-extrabold py-5 text-white mt-1"
           >
-            Volunteer
+            Join us!
           </h2>
           <p class="txt-custom mt-4 mb-4 py-1 text-lg text-gray-300">
             Want to join? Warrior Robotics is the perfect spot for programmers and

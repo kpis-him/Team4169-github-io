@@ -1,10 +1,10 @@
-# Welcome to Programmatic Articles!
+# Welcome to Warrior Articles!
 
-Hello and welcome to **Programmatic Articles** – your source for insightful programming-related content. Whether you're a seasoned developer or just starting out, our collection of articles aims to provide you with valuable insights, tips, and knowledge to enhance your programming journey.
+Hello and welcome to **Warrior Articles** – your source for insightful robotics-related content. Whether you're a seasoned developer or just starting out, our collection of articles aims to provide you with valuable insights, tips, and knowledge to enhance your programming journey.
 
 ## About Programmatic Articles
 
-**Programmatics Articles** is a platform dedicated to delivering high-quality articles on a variety of programming topics. Our mission is to help you stay up-to-date with the latest trends, technologies, and best practices in the world of programming. Our articles cover a wide range of subjects, including:
+**Warrior Articles** is a platform dedicated to delivering high-quality articles on a variety of programming topics. Our mission is to help you stay up-to-date with the latest trends, technologies, and best practices in the world of programming. Our articles cover a wide range of subjects, including:
 
 - Programming languages
 - Web development
