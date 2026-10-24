@@ -92,7 +92,6 @@ const handleSubmit = async () => {
         <div class="mb-6">
           <label for="name" class="block text-sm font-bold">Name:</label>
           <input
-            type="text"
             id="name"
             v-model="name"
             required
@@ -101,7 +100,6 @@ const handleSubmit = async () => {
           <br /><br />
           <label for="email" class="block text-sm font-bold">Email:</label>
           <input
-            type="email"
             id="email"
             v-model="email"
             required
