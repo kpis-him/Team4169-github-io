@@ -116,31 +116,31 @@ const handleSubmit = async () => {
           ></textarea>
 
           <br /><br />
-          <label class="block text-sm font-bold">What Classes Can You Teach:</label><br />
+          <label class="block text-sm font-bold">What Subteam would you want to join?</label><br />
           <div class="ml-4 space-y-1">
             <label class="flex items-center">
-              <input type="checkbox" value="Pico" v-model="selectedValues" class="mr-2" />
-              <span class="text-gray-100">Pico</span>
+              <input type="checkbox" value="Des" v-model="selectedValues" class="mr-2" />
+              <span class="text-gray-100">Design</span>
             </label>
             <label class="flex items-center">
-              <input type="checkbox" value="PyBasic" v-model="selectedValues" class="mr-2" />
-              <span class="text-gray-100">Python Basic</span>
+              <input type="checkbox" value="Elec" v-model="selectedValues" class="mr-2" />
+              <span class="text-gray-100">Electrical</span>
             </label>
             <label class="flex items-center">
-              <input type="checkbox" value="PyAdv" v-model="selectedValues" class="mr-2" />
-              <span class="text-gray-100">Python Advanced</span>
+              <input type="checkbox" value="Mech" v-model="selectedValues" class="mr-2" />
+              <span class="text-gray-100">Mechanical</span>
             </label>
             <label class="flex items-center">
-              <input type="checkbox" value="Scratch" v-model="selectedValues" class="mr-2" />
-              <span class="text-gray-100">Scratch</span>
+              <input type="checkbox" value="Programming" v-model="selectedValues" class="mr-2" />
+              <span class="text-gray-100">Programming</span>
             </label>
             <label class="flex items-center">
-              <input type="checkbox" value="Unity" v-model="selectedValues" class="mr-2" />
-              <span class="text-gray-100">Unity</span>
+              <input type="checkbox" value="idk" v-model="selectedValues" class="mr-2" />
+              <span class="text-gray-100">I don't know</span>
             </label>
             <label class="flex items-center">
               <input type="checkbox" value="Other" v-model="selectedValues" class="mr-2" />
-              <span class="text-gray-100">Other (Web Dev, Writing Articles, etc.)</span>
+              <span class="text-gray-100">Other (Fundraising etc.)</span>
             </label>
           </div>
         </div>
