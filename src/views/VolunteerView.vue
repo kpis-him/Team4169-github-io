@@ -25,22 +25,32 @@ const closePopup = () => {
 
 const handleSubmit = async () => {
   try {
-    const response = await fetch("http://localhost:5050/form/volunteer", {
+    const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { 
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
       body: JSON.stringify({
+        access_key: "421ada96-51b0-46b1-9658-0b12ce56995a",
         name: name.value,
         email: email.value,
-        expertise: expertise.value,
-        selectedValues: selectedValues.value
+        experience: expertise.value,
+        classes_can_teach: selectedValues.value.join(", "), // Turns your checkbox array into a clean readable string
+        subject: "New Volunteer Signup - Team 4169 Website"
       }),
     });
 
-    if (response.status === 204 || response.ok) {
+    const result = await response.json();
+
+    if (result.success) {
+      // Clear form fields
       name.value = '';
       email.value = '';
       expertise.value = '';
       selectedValues.value = [];
+      
+      // Close sidebar and trigger your custom Success! modal
       closePopup();
       showSuccess.value = true;
     } else {
@@ -66,7 +76,6 @@ const handleSubmit = async () => {
     </button>
   </header>
 
-  <!-- Added dynamic :style binding so it slides in when isOpen is true -->
   <aside
     id="formbar"
     class="bg-slate-700 shadow-lg fixed top-0 h-screen z-50 w-[400px] transition-all duration-300 ease-in-out"
