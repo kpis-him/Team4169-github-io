@@ -12,7 +12,7 @@ import { RouterLink, RouterView } from "vue-router";
         <img class="w-10" src="./assets/logo.png" />
       </RouterLink>
 
-      <RouterLink to="/">Warrioir Robotics</RouterLink>
+      <RouterLink to="/">Warrior Robotics</RouterLink>
     </div>
     <div class="nav-btn items-center h-full flex justify-center">
       <label for="nav-check" class="p-2">

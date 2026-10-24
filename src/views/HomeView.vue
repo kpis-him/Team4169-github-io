@@ -9,7 +9,7 @@
     <h1
       class="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-blue-500 mb-3 font-extrabold text-8xl pb-2 name"
     >
-      Programmatic
+      Warrior Robotics
     </h1>
     <router-link to="/enroll"
       ><button
@@ -32,7 +32,7 @@
           <p
             class="txt-custom-scr mt-2 mb-4 text-lg text-gray-300 justify-center text-center"
           >
-            Programmatic is an organization dedicated to bringing STEM to to the next generation of engineers, coders, and innovators.
+            Warrior Robotics is an organization dedicated to bringing STEM to to the next generation of engineers, coders, and innovators.
             <br><br>
             We grow skills like problem solving and algorithmic thinking from the ground up, so nobody is too inexperienced to start learning and building
           </p>
@@ -47,36 +47,7 @@
   </article>
   <hr class="mx-auto w-5/6 mb-24 border border-slate-400 mt-32" />
   <article class="flex-col flex justify-center items-center">
-    <h2 class="text-8xl font-extrabold text-center text-white mt-24 mb-3 offer">
-      What Can We Offer?
-    </h2>
-    <hr class="mx-auto w-1/3 mb-24 border border-purple-700 mt-1" />
-    <section class="flex flex-col justify-center gap-36">
-      <div class="flex justify-center gap-24 items-center z-flex">
-        <div class="image-container">
-          <img class="w-custom-scr rounded" src="../assets/circuit.avif" alt="" />
-        </div>
-        <div>
-          <h2
-            class="txt-custom txt-title text-5xl font-extrabold py-5 text-white mt-1"
-          >
-            Coding and Engineering workshops
-          </h2>
-          <p class="txt-custom mt-4 py-1 mb-4 text-lg text-gray-300">
-            The latest innovations and the everyday devices are built on the foundations of engineering and computer science.
-            <br><br>
-            We use hands-on workshops and interactive demonstrations to put the innovation in your hands, so you can see, hold, iterate, and learn by creating.
-            <br><br>
-            From making simple programs and circuits to building and programming robots from scratch, we take it one step at a time so you can not just learn the skills, but love the process.
-          </p>
-          <router-link
-            to="/enroll"
-            class="text-blue-300 transition hover:text-purple-300 duration-500 text-xl"
-            >Enroll →</router-link
-          >
-        </div>
-      </div>
-
+ 
       <!--  -->
       <!--  -->
       <!--  -->
