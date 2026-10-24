@@ -1,91 +1,53 @@
 <script setup>
+import { ref } from 'vue';
 import Zpattern1 from "../components/Zpattern-1.vue";
 import Zpattern2 from "../components/Zpattern-2.vue";
-window.onload = function () {
-  const formbar = document.getElementById("formbar");
-  const openPopupButton = document.getElementById("open-popup-btn");
-  const overlay = document.getElementById("overlay");
-  const closePopupButton = document.getElementById("close-popup-btn");
-  openPopupButton.addEventListener("click", () => {
-    formbar.style.right = "0";
-    overlay.style.display = "block";
-    setTimeout(() => {
-      overlay.style.opacity = "0.60";
-    }, 10);
 
-    document.body.classList.add(
-      "overflow-hidden-compensate",
-      "pointer-events-none",
-      "fixed",
-      "inset-0",
-      "pr-2.5"
-    );
-  });
-  const form = document.getElementById("inputForm");
+// Reactive state for opening/closing the sidebar and message boxes
+const isOpen = ref(false);
+const showSuccess = ref(false);
+const showError = ref(false);
 
-  form.addEventListener("submit", async (event) => {
-    event.preventDefault();
+const name = ref('');
+const email = ref('');
+const expertise = ref('');
+const selectedValues = ref([]);
 
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const expertise = document.getElementById("expertise").value;
-    const selectedValues = [];
+const openPopup = () => {
+  isOpen.value = true;
+  document.body.classList.add("overflow-hidden", "fixed", "inset-0", "pr-2.5");
+};
 
-    const checkboxes = document.querySelectorAll(
-      'input[type="checkbox"][name="message"]'
-    );
+const closePopup = () => {
+  isOpen.value = false;
+  document.body.classList.remove("overflow-hidden", "fixed", "inset-0", "pr-2.5");
+};
 
-    checkboxes.forEach(function (checkbox) {
-      if (checkbox.checked) {
-        selectedValues.push(checkbox.value);
-      }
-    });
-
+const handleSubmit = async () => {
+  try {
     const response = await fetch("http://localhost:5050/form/volunteer", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ name, email, expertise, selectedValues }),
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: name.value,
+        email: email.value,
+        expertise: expertise.value,
+        selectedValues: selectedValues.value
+      }),
     });
 
-    if (response.status === 204) {
-      form.reset();
-      closeformbar();
-      successBox.classList.remove("hidden");
-      successBox.classList.add("flex");
-      closeSuccessBox.addEventListener("click", () => {
-        successBox.classList.add("hidden");
-        successBox.classList.remove("flex");
-      });
+    if (response.status === 204 || response.ok) {
+      name.value = '';
+      email.value = '';
+      expertise.value = '';
+      selectedValues.value = [];
+      closePopup();
+      showSuccess.value = true;
     } else {
-      errorBox.classList.remove("hidden");
-      errorBox.classList.add("flex");
-      closeErrorBox.addEventListener("click", () => {
-        errorBox.classList.add("hidden");
-        errorBox.classList.remove("flex");
-      });
+      showError.value = true;
     }
-  });
-
-  closePopupButton.addEventListener("click", () => {
-    closeformbar();
-  });
-
-  function closeformbar() {
-    formbar.style.right = "-400px";
-    overlay.style.opacity = "0";
-    setTimeout(() => {
-      overlay.style.display = "none";
-    }, 500);
-    document.body.classList.remove(
-      "overflow-hidden-compensate",
-      "pointer-events-none",
-      "fixed",
-      "inset-0",
-      "pr-2.5"
-    );
-    formbar.removeEventListener("click", closeformbar);
+  } catch (err) {
+    showError.value = true;
   }
 };
 </script>
