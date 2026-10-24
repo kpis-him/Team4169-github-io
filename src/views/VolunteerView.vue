@@ -96,7 +96,7 @@ const handleSubmit = async () => {
             id="name"
             v-model="name"
             required
-            class="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300 text-black"
+            class="w-full p-2 bg-white border rounded-md focus:outline-none focus:ring focus:border-blue-300 text-black"
           />
           <br /><br />
           <label for="email" class="block text-sm font-bold">Email:</label>
@@ -105,7 +105,7 @@ const handleSubmit = async () => {
             id="email"
             v-model="email"
             required
-            class="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300 text-black"
+            class="w-full p-2 bg-white border rounded-md focus:outline-none focus:ring focus:border-blue-300 text-black"
           />
           <br /><br />
           <label for="expertise" class="block text-sm font-bold">List Your Experience:</label>
