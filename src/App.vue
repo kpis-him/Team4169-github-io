@@ -82,7 +82,7 @@ import { RouterLink, RouterView } from "vue-router";
             class="w-10 h-10"
           />
           <div>
-            <h1 class="font-extrabold text-xl">Programmatic</h1>
+            <h1 class="font-extrabold text-xl">Warrior Robotics</h1>
           </div>
         </div>
         <div class="flex gap-7 items-center justify-center">
