@@ -47,7 +47,26 @@
   </article>
   <hr class="mx-auto w-5/6 mb-24 border border-slate-400 mt-32" />
   <article class="flex-col flex justify-center items-center">
- 
+    <h2 class="text-8xl font-extrabold text-center text-white mt-24 mb-3 offer">
+      How Often do we meet?
+    </h2>
+    <hr class="mx-auto w-1/3 mb-24 border border-purple-700 mt-1" />
+    <section class="flex flex-col justify-center gap-36">
+      <div class="flex justify-center gap-24 items-center z-flex">
+        <div class="image-container">
+          <img class="w-custom-scr rounded" src="../assets/circuit.avif" alt="" />
+        </div>
+        <div>
+          <p class="txt-custom mt-4 py-1 mb-4 text-lg text-gray-300">
+            We have two components to our season: A Preseason and a build season
+            <br><br>
+            In the preseason, we use hands-on workshops and interactive demonstrations to put the innovation in your hands, so you can see, hold, iterate, and learn by creating.
+            <br><br>
+            In the build season, we make everything for our robot, including design, wiring, building and programming based on the game released every year: <a href link="https://www.nefirst.org/"> NE FIRST </a>.
+          </p>
+        </div>
+      </div>
+
       <!--  -->
       <!--  -->
       <!--  -->
@@ -60,12 +79,10 @@
             Volunteer
           </h2>
           <p class="txt-custom mt-4 mb-4 py-1 text-lg text-gray-300">
-            Want to help? Programmatic is the perfect spot for programmers and
+            Want to join? Warrior Robotics is the perfect spot for programmers and
             developers who are interested in teaching computer science. Not only
-            can you gain experience in honing in your presentation and teaching
-            ability, you can earn volunteer ours, and teach the next generation
-            of students computer science. You can choose between 5 courses to
-            teach or work on expanding and developing Programmatic.
+            can you gain experience in honing in your technical abilites. You can choose to help hone your presentation skills to
+            teach or work on expanding and developing Warrior Robotics' impact!
           </p>
           <a
             href="/volunteer"
@@ -86,11 +103,10 @@
     </h4>
     <p class="text-center text-2xl text-white m-5 contact">
       Got questions? Reach out to us! We're here to answer your inquiries,
-      provide more information about our programming classes and volunteering
-      opportunities, and guide you through the exciting journey ahead.
+      provide more information and guide you through the exciting journey ahead.
     </p>
     <h5 class="text-2xl text-center text-white font-bold p-2 gmail">
-      programmaticteams@gmail.com
+      paul_shultz@lsrhs.net
     </h5>
   </section>
 </template>
@@ -109,7 +125,7 @@
 }
 
 .bg--home {
-  background-image: url("https://images.unsplash.com/photo-1625535163131-9d1fc30ea5f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8CnJwwzRHvqTQviQR1s42wiMH6IL5rMCVTulP62O6sg&s=10");
   background-repeat: no-repeat;
   width: calc(100vw - (100vw - 100%));
 }
