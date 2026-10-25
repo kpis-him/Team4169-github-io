@@ -36,11 +36,7 @@
             <br><br>
             We grow skills like problem solving and algorithmic thinking from the ground up, so nobody is too inexperienced to start learning and building
           </p>
-          <a
-            href="/about"
-            class="text-blue-300 transition hover:text-purple-300 duration-500 text-xl text-center justify-center"
-            >About →</a
-          >
+          <router-link to="/about" class="text-blue-500 underline">our team</router-link>
         </div>
       </div>
     </section>
@@ -84,11 +80,7 @@
             can you gain experience in honing in your technical abilites. You can choose to help hone your presentation skills to
             teach or work on expanding and developing Warrior Robotics' impact!
           </p>
-          <a
-            href="/volunteer"
-            class="text-blue-300 transition hover:text-purple-300 duration-500 text-xl"
-            >Volunteer →</a
-          >
+          <router-link to="/volunteer" class="text-blue-500 underline">Join us!</router-link>
         </div>
         <div class="image-container">
           <img class="w-custom-scr rounded" src="../assets/car.png" alt="" />
