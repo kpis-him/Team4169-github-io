@@ -65,7 +65,7 @@ const handleSubmit = async () => {
 <template>
   <header id="header" class="bg--about flex-col text-center shadow-lg">
     <h2 class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 mb-3 font-extrabold text-8xl pb-2 title-volunteer">
-      Volunteer Today!
+      Become A Member Today!
     </h2>
     <!-- Added @click="openPopup" here -->
     <button
@@ -192,14 +192,14 @@ const handleSubmit = async () => {
   <main id="main" class="flex gap-x-80 top-44 mb-10 justify-center items-center main-volunteer">
     <section class="flex flex-col gap-36 zpattern-space">
       <Zpattern1
-        name="What Do We Expect In A Volunteer?"
-        desc="At Programmatic, our commitment to education and empowering students extends beyond the bounds of our dedicated team..."
-        imgurl="scratch.png"
+        name="What Do We Expect In A Member?"
+        desc="At Warrior Robotics, our commitment to education and empowering students extends beyond the bounds of our dedicated team..."
+        imgurl="raspberypi.png"
       />
       <Zpattern1
-        name="Why Volunteer?"
-        desc="As a volunteer, you will have the chance to engage with students from diverse backgrounds..."
-        imgurl="Unity.png"
+        name="Why Us?"
+        desc="As a member, you will have the chance to be involved in a rewarding process like no other..."
+        imgurl="first.png"
       />
     </section>
   </main>
@@ -214,7 +214,7 @@ const handleSubmit = async () => {
 
 <style scoped>
 .bg--about {
-  background-image: url("https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80");
+  background-image: url("https://images.unsplash.com/photo-1758387933125-5ac945b4e2cd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
   background-repeat: no-key;
   background-size: cover;
   background-position: center;
