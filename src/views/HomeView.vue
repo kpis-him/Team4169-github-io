@@ -34,9 +34,8 @@
           >
             Warrior Robotics is an organization dedicated to bringing STEM to to the next generation of engineers, coders, and innovators.
             <br><br>
-            We grow skills like problem solving and algorithmic thinking from the ground up, so nobody is too inexperienced to start learning and building
+            We grow skills like problem solving and algorithmic thinking from the ground up, so nobody is too inexperienced to start learning and building <router-link to="/about" class="text-blue-500 underline">About us</router-link>
           </p>
-          <router-link to="/about" class="text-blue-500 underline">our team</router-link>
         </div>
       </div>
     </section>
