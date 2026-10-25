@@ -5,6 +5,7 @@ import iconrpi from "../components/icons/IconRPI.vue";
 import scratchicon from "../components/icons/IconScratch.vue";
 import left from "../components/icons/IconLeft.vue";
 import right from "../components/icons/IconRight.vue";
+import iconwpi from "../components/icons/IconJava.vue";
 window.onload = function () {
   const formbar = document.getElementById("formbar");
   const openPopupButton = document.getElementById("open-popup-btn");
@@ -200,7 +201,7 @@ window.onload = function () {
       @click="navigate"
       class="bg-gray-500 hover:bg-gray-600 active:bg-gray-600 p-5 rounded shadow-md font-extrabold text-blue-200 m-5 text-base"
     >
-      Enroll Now &rarr;
+      Join Us! &rarr;
     </button>
 </router-link>
   <div class="gap-5 mb-5 flex bg-blue-800 p-2 rounded-sm Autoplay-btn">
@@ -375,7 +376,7 @@ window.onload = function () {
             </div>
             <h2 class="text-black font-extrabold">Electrical</h2>
             <p class="px-5 text-center text-white text-size">
-              Elec Programming Desc.
+              Elec Desc.
             </p>
           </li>
           <li class="cardEn">
@@ -389,7 +390,7 @@ window.onload = function () {
           </li>
           <li class="cardEn">
             <div class="img">
-              <unityicon />
+              <iconwpi />
             </div>
             <h2 class="text-black font-extrabold">Programming</h2>
             <p class="px-5 text-center text-white text-size">
