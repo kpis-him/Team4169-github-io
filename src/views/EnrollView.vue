@@ -364,69 +364,45 @@ window.onload = function () {
             <div class="img">
               <scratchicon />
             </div>
-            <h2 class="text-black font-extrabold">Scratch</h2>
-            <h3 class="text-white font-bold pb-5">Beginner</h3>
+            <h2 class="text-black font-extrabold">Design</h2>
             <p class="px-5 text-center text-white text-size">
-              Scratch is a dynamic block code language developed by MIT,
-              designed to teach kids how to code. Scratch Scratch is excellent
-              at teaching beginners how to think logically, introducing
-              important concepts and letting students explore without the
-              addition of boilerplatey syntax.
+              Design Subteam desc.
             </p>
           </li>
           <li class="cardEn">
             <div class="img">
               <pyicon />
             </div>
-            <h2 class="text-black font-extrabold">Python Basic</h2>
-            <h3 class="text-white font-bold pb-5">Beginner-Intermediate</h3>
+            <h2 class="text-black font-extrabold">Electrical</h2>
             <p class="px-5 text-center text-white text-size">
-              This course jumps right into a text based programming language:
-              Python. Python is a general purpose language developed by Guido
-              van Rossum, and it is one of the easiest languages to learn.
-              Despite its simpilicty, has been used in many important
-              applications (i.e. machine learning).
+              Elec Programming Desc.
             </p>
           </li>
           <li class="cardEn">
             <div class="img">
               <pyicon />
             </div>
-            <h2 h2 class="text-black font-extrabold">Python Advanced</h2>
-            <h3 class="text-white font-bold pb-5">Intermediate</h3>
+            <h2 h2 class="text-black font-extrabold">Mechanical</h2>
             <p class="px-5 text-center text-white text-size">
-              This course aims to focus on more advanced applications of Python.
-              Rather than simply learning Python as a language, students will
-              get to understand that languages are only tools. We'll dive into
-              advanced language concepts (i.e. classes), data structures,
-              algorithms, and real-world projects.
+              Mechanical Subteam desc
             </p>
           </li>
           <li class="cardEn">
             <div class="img">
               <unityicon />
             </div>
-            <h2 class="text-black font-extrabold">Unity</h2>
-            <h3 class="text-white font-bold pb-5">Intermediate-Advanced</h3>
+            <h2 class="text-black font-extrabold">Programming</h2>
             <p class="px-5 text-center text-white text-size">
-              In this class, we'll take a look at Unity, an amazing
-              cross-platform game engine that is used by many professionals to
-              create popular games like Call of Duty, Pokemon Go, Beat Saber,
-              and more! In this class, you'll learn, yourself, how to use this
-              tool to create amazing games and projects.
+              Programming Subteam desc.
             </p>
           </li>
           <li class="cardEn">
             <div class="img">
               <iconrpi />
             </div>
-            <h2 class="text-black font-extrabold">Raspberry Pi</h2>
-            <h3 class="text-white font-bold pb-5">Advanced</h3>
+            <h2 class="text-black font-extrabold">Fundraising</h2>
             <p class="px-5 text-center text-white text-size">
-              Learn to use hardware alongside software to create exciting
-              projects with the Raspberry Pi and the new Raspberry Pi Pico
-              microcontroller. In this class you'll learn how software can
-              interact with a real world enviorment
+              Fundraising desc.
             </p>
           </li>
         </ul>

@@ -82,11 +82,11 @@ window.onload = function () {
 
       <div class="rounded-sm bg-teal-950 p-5 w-72 m-10">
         <h2 class="font-extrabold text-white text-lg">
-          Behind Programmatic.org
+          Behind Warrior Robotics
         </h2>
         <br />
         <p class="font-semibold text-white text-sm">
-          An article detailing the creation and development of Programmatic.org
+          An article detailing the creation and development of Team 4169
         </p>
         <br />
         <a id="read-button" href="/articles/programmatic.md"> Read Article </a>
