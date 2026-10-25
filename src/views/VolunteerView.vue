@@ -194,7 +194,7 @@ const handleSubmit = async () => {
       <Zpattern1
         name="What Do We Expect In A Member?"
         desc="At Warrior Robotics, our commitment to education and empowering students extends beyond the bounds of our dedicated team..."
-        imgurl="raspberypi.png"
+        imgurl="raspberrypi.png"
       />
       <Zpattern1
         name="Why Us?"
