@@ -200,8 +200,8 @@ window.onload = function () {
       @click="navigate"
       class="bg-gray-500 hover:bg-gray-600 active:bg-gray-600 p-5 rounded shadow-md font-extrabold text-blue-200 m-5 text-base"
     >
-    Enroll Now &rarr;
-  </button>
+      Enroll Now &rarr;
+    </button>
 </router-link>
   <div class="gap-5 mb-5 flex bg-blue-800 p-2 rounded-sm Autoplay-btn">
     <h4 class="font-extrabold text-white text-2xl">Autoplay:</h4>
@@ -218,9 +218,136 @@ window.onload = function () {
     >
       Close
     </button>
-    
+    <div class="pt-16 px-6">
+      <form id="inputForm" class="text-white">
+        <div class="mb-6">
+          <label for="name" class="block text-sm font-bold">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            class="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300 text-black"
+          />
+          <br />
+          <br />
+          <label for="email" class="block text-sm font-bold">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            class="w-full p-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300 text-black"
+          />
+          <br />
+          <br />
+          <label for="enrolled" class="block text-sm font-bold">Class:</label
+          ><br />
+          <div class="ml-4 space-y-1">
+            <label for="message1" class="flex items-center">
+              <input
+                type="radio"
+                id="message1"
+                name="message"
+                value="Pico"
+                required
+                class="mr-2"
+              />
+              <span class="text-gray-100">Fundraising</span>
+            </label>
 
+            <label for="message2" class="flex items-center">
+              <input
+                type="radio"
+                id="message2"
+                name="message"
+                value="PyBasic"
+                required
+                class="mr-2"
+              />
+              <span class="text-gray-100">Mechanical</span>
+            </label>
 
+            <label for="message3" class="flex items-center">
+              <input
+                type="radio"
+                id="message3"
+                name="message"
+                value="PyAdv"
+                required
+                class="mr-2"
+              />
+              <span class="text-gray-100">Electrical</span>
+            </label>
+
+            <label for="message4" class="flex items-center">
+              <input
+                type="radio"
+                id="message4"
+                name="message"
+                value="Scratch"
+                required
+                class="mr-2"
+              />
+              <span class="text-gray-100">Design</span>
+            </label>
+
+            <label for="message5" class="flex items-center">
+              <input
+                type="radio"
+                id="message5"
+                name="message"
+                value="Unity"
+                required
+                class="mr-2"
+              />
+              <span class="text-gray-100">Programming</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="flex justify-end">
+          <button
+            type="submit"
+            class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring focus:border-blue-300"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+      <div
+        id="errorBox"
+        class="hidden fixed inset-0 items-center justify-center bg-black bg-opacity-50 z-10 gap-10"
+      >
+        <div
+          class="bg-gray-700 p-20 m-10 rounded shadow flex-center justify-center text-center gap-10"
+        >
+          <p class="text-red-600 text-3xl font-extrabold">
+            Failed to submit form
+          </p>
+          <button
+            id="closeErrorBox"
+            class="mt-2 px-10 py-3 bg-red-600 text-red-100 rounded"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="successBox"
+        class="hidden fixed inset-0 items-center justify-center bg-black bg-opacity-50 z-10 gap-10"
+      >
+        <div
+          class="bg-green-500 p-20 m-10 px-32 rounded shadow flex-center justify-center text-center gap-10"
+        >
+          <p class="text-white text-3xl font-extrabold">Success!</p>
+          <button
+            id="closeSuccessBox"
+            class="mt-2 px-10 py-3 bg-gray-700 text-white rounded"
+          >
+            Close
+          </button>
         </div>
       </div>
     </div>
