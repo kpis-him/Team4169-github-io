@@ -116,29 +116,22 @@ import { RouterLink, RouterView } from "vue-router";
         </div>
         <div class="flex gap-12 justify-center items-center">
           <h1 class="font-bold text-lg mt-1">Socials:</h1>
-          <router-link
-            href="https://www.instagram.com/programmatics_official/"
+          <a
+            href="https://www.instagram.com/lsrobotics4169/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="./assets/instagram.png" alt="Instagram" class="w-8 h-8" />
-          </router-link>
-          <router-link
-            href="https://discord.gg/PGUc95ZRYk"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="./assets/discord.png" alt="Discord" class="w-7 h-8" />
-          </router-link>
-          <router-link href="mailto:programmaticteams@gmail.com">
+          </a>
+          <a href="mailto:programmaticteams@gmail.com">
             <img src="./assets/gmail.png" alt="Gmail" class="w-8 h-7" />
-          </router-link>
+          </a>
         </div>
       </div>
       <div>
         <p class="text-center para text-white mb-5 pt-6">
-          Programmatic is an organization dedicated to teaching the next
-          generation of students the fundamentals of engineering and computer science.
+          Warrior Robotics is an organization dedicated to teaching the next
+          generation of students the fundamentals of engineering and computer science through FRC.
         </p>
       </div>
     </div>
