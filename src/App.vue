@@ -102,11 +102,11 @@ import { RouterLink, RouterView } from "vue-router";
             </li>
             <div class="bg-neutral-100 opacity-100 dark:opacity-50"></div>
             <li>
-              <router-link to="/enroll">Enroll</router-link>
+              <router-link to="/enroll">Subteams</router-link>
             </li>
             <div class="bg-neutral-100 opacity-100 dark:opacity-50"></div>
             <li>
-              <router-link to="/volunteer">Volunteer</router-link>
+              <router-link to="/volunteer">Join</router-link>
             </li>
             <div class="bg-neutral-100 opacity-100 dark:opacity-50"></div>
             <li>
