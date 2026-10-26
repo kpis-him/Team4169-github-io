@@ -64,9 +64,9 @@ import { RouterLink, RouterView } from "vue-router";
         /></router-link>
       </li>
       <li class="items-center justify-center self-center w-8 h-8">
-        <router-link to="https://www.instagram.com/programmatics_official/">
+        <a href="https://www.instagram.com/lsrobotics4169">
           <img class="w-8" src="./assets/instagram.png"
-        /></router-link>
+        /></a>
       </li>
     </ul>
   </nav>

@@ -57,7 +57,7 @@
             <br><br>
             In the preseason, we use hands-on workshops and interactive demonstrations to put the innovation in your hands, so you can see, hold, iterate, and learn by creating.
             <br><br>
-            In the build season, we make everything for our robot, including design, wiring, building and programming based on the game released every year: <a href link="https://www.nefirst.org/"> NE FIRST </a>.
+            In the build season, we make everything for our robot, including design, wiring, building and programming based on the game released every year: <a href="https://www.nefirst.org/"> NE FIRST </a>.
           </p>
         </div>
       </div>
@@ -116,7 +116,7 @@
 }
 
 .bg--home {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8CnJwwzRHvqTQviQR1s42wiMH6IL5rMCVTulP62O6sg&s=10");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUR3yWIrs37gh91EZerMl7TsrKFUoVAhAZfsdn2zmeCg&s=10");
   background-repeat: no-repeat;
   width: calc(100vw - (100vw - 100%));
 }
