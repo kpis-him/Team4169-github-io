@@ -29,6 +29,7 @@ import BioCard from "../components/BioCard.vue";
                 name="Grady"
                 pos="Captain"
                 discord="mayg27@lsrhs.net"
+                desc="blahhhhh blahhhhhblahhhhhblahhhhhblahhhhhblahhhhhblahhhhhblahhhhhblahhhhhblahhhhhblahhhhhblahhhhh"
                 imgurl="gmail.png"
             />
             <BioCard
