@@ -41,13 +41,13 @@ import { RouterLink, RouterView } from "vue-router";
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
       ></div>
       <li>
-        <router-link to="/enroll">Enroll</router-link>
+        <router-link to="/enroll">Subteams</router-link>
       </li>
       <div
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
       ></div>
       <li>
-        <router-link to="/volunteer">Volunteer</router-link>
+        <router-link to="/volunteer">Join</router-link>
       </li>
       <div
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
@@ -59,9 +59,9 @@ import { RouterLink, RouterView } from "vue-router";
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
       ></div>
       <li class="items-center justify-center self-center w-8 h-8">
-        <router-link to="https://discord.gg/PGUc95ZRYk">
+        <a href="https://discord.gg/PGUc95ZRYk">
           <img class="w-8" src="./assets/discord.png"
-        /></router-link>
+        /></a>
       </li>
       <li class="items-center justify-center self-center w-8 h-8">
         <a href="https://www.instagram.com/lsrobotics4169">
