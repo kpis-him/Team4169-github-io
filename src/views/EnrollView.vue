@@ -6,6 +6,7 @@ import scratchicon from "../components/icons/IconScratch.vue";
 import left from "../components/icons/IconLeft.vue";
 import right from "../components/icons/IconRight.vue";
 import iconwpi from "../components/icons/IconJava.vue";
+import onicon from "../components/icons/IconOn.vue";
 window.onload = function () {
   const formbar = document.getElementById("formbar");
   const openPopupButton = document.getElementById("open-popup-btn");
@@ -363,7 +364,7 @@ window.onload = function () {
         <ul class="carousel">
           <li class="cardEn">
             <div class="img">
-              <scratchicon />
+              <onicon />
             </div>
             <h2 class="text-black font-extrabold">Design</h2>
             <p class="px-5 text-center text-white text-size">
