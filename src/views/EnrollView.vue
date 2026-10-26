@@ -206,14 +206,6 @@ window.onload = function () {
       Join Us! &rarr;
     </button>
 </router-link>
-  <div class="gap-5 mb-5 flex bg-blue-800 p-2 rounded-sm Autoplay-btn">
-    <h4 class="font-extrabold text-white text-2xl">Autoplay:</h4>
-    <br />
-    <label class="switch">
-      <input type="checkbox" id="toggleSwitch" checked />
-      <span class="slider"></span>
-    </label>
-  </div>
   <aside id="formbar" class="bg-slate-700 shadow-lg">
     <button
       id="close-popup-btn"
