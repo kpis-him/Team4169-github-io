@@ -116,7 +116,7 @@
 }
 
 .bg--home {
-  background-image: "../assets/team.png";
+  background-image: url("@/assets/team.png");
   background-repeat: no-repeat;
   width: calc(100vw - (100vw - 100%));
 }
