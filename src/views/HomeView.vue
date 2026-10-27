@@ -2,7 +2,7 @@
 <template>
   <main class="bg--home irl flex-col justify-center text-center shadow-lg">
     <h3
-      class="text-transparent bg-clip-text bg-gradient-to-b from-white-400 to-blue-500 mb-3 font-extrabold text-7xl welcome"
+      class="white-to-blue-text"
     >
       Welcome to
     </h3>
