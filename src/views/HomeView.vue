@@ -7,7 +7,7 @@
       Welcome to
     </h3>
     <h1
-      class="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-blue-500 mb-3 font-extrabold text-8xl pb-2 name"
+      class="bg-gray-600 hover:bg-gray-500 active:bg-gray-600 p-3 rounded shadow-md font-bold text-blue-300 m-8"
     >
       Warrior Robotics
     </h1>
