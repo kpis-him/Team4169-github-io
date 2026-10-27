@@ -7,7 +7,7 @@
       Welcome to
     </h3>
     <h1
-      class="bg-gray-600 hover:bg-gray-500 active:bg-gray-600 p-3 rounded shadow-md font-bold text-blue-300 m-8"
+      class="bg-gray-600 rounded shadow-md font-bold text-blue-300 m-8"
     >
       Warrior Robotics
     </h1>
