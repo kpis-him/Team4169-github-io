@@ -2,7 +2,7 @@
 <template>
   <main class="bg--home irl flex-col justify-center text-center shadow-lg">
     <h3
-      class="white-to-blue-text"
+      class="ounded shadow-md font-bold text-blue-300 m-8 font-extrabold text-4xl welcome"
     >
       Welcome to
     </h3>
