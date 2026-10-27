@@ -7,7 +7,7 @@
       Welcome to
     </h3>
     <h1
-      class="rounded shadow-md font-bold text-blue-300 m-8"
+      class="rounded shadow-md font-bold text-blue-300 m-8 font-extrabold text-7xl welcome"
     >
       Warrior Robotics
     </h1>
