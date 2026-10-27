@@ -116,7 +116,7 @@
 }
 
 .bg--home {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUR3yWIrs37gh91EZerMl7TsrKFUoVAhAZfsdn2zmeCg&s=10");
+  background-image: "../assets/team.png";
   background-repeat: no-repeat;
   width: calc(100vw - (100vw - 100%));
 }
