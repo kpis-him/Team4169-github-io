@@ -399,7 +399,7 @@ window.onload = function () {
           </li>
           <li class="cardEn">
             <div class="img">
-              <iconrpi />
+              <ficon />
             </div>
             <h2 class="text-black font-extrabold">Fundraising</h2>
             <p class="px-5 text-white text-size">
