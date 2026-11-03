@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from "vue-router";
     <input type="checkbox" id="nav-check" />
     <div class="nav-header flex items-center">
       <RouterLink to="/" tag="img" class="w-10 h-10">
-        <img class="w-10" src="./assets/logo.png" />
+        <img class="w-10" src="./assets/logo1.png" />
       </RouterLink>
 
       <RouterLink to="/">Warrior Robotics</RouterLink>
