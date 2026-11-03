@@ -8,7 +8,7 @@ import about from "../components/About.vue";
       <img
         alt="Programmatic logo"
         class="logo self-center"
-        src="../assets/logo.png"
+        src="../assets/logo1.png"
         width="700"
         height="700"
       />
