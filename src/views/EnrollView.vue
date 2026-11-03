@@ -361,7 +361,10 @@ window.onload = function () {
             </div>
             <h2 class="text-black font-extrabold">Design</h2>
             <p class="px-5 text-center text-white text-size">
-              Design Subteam desc.
+              - Brainstorming (Separate designs are created, Put through a Design Matrix, Select a design based on best overall ability)
+              - Prototyping (CAD and Create, using existing parts)
+              - Iterating 
+              - Implementing 
             </p>
           </li>
           <li class="cardEn">
@@ -397,7 +400,7 @@ window.onload = function () {
             </div>
             <h2 class="text-black font-extrabold">Fundraising</h2>
             <p class="px-5 text-center text-white text-size">
-              Fundraising desc.
+              
             </p>
           </li>
         </ul>
