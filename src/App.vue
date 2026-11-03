@@ -71,7 +71,7 @@ import { RouterLink, RouterView } from "vue-router";
       <div class="flex justify-center gap-20 footer-div">
         <div class="flex justify-center items-center gap-4">
           <img
-            src="./assets/logo.png"
+            src="./assets/logo1.png"
             alt="Programmatic Logo"
             class="w-10 h-10"
           />
