@@ -53,11 +53,6 @@ import { RouterLink, RouterView } from "vue-router";
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
       ></div>
       <li class="items-center justify-center self-center w-8 h-8">
-        <a href="https://discord.gg/PGUc95ZRYk">
-          <img class="w-8" src="./assets/discord.png"
-        /></a>
-      </li>
-      <li class="items-center justify-center self-center w-8 h-8">
         <a href="https://www.instagram.com/lsrobotics4169">
           <img class="w-8" src="./assets/instagram.png"
         /></a>
