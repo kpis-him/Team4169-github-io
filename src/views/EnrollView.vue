@@ -361,10 +361,8 @@ window.onload = function () {
             </div>
             <h2 class="text-black font-extrabold">Design</h2>
             <p class="px-5 text-center text-white text-size">
-              - Brainstorming (Separate designs are created, Put through a Design Matrix, Select a design based on best overall ability)
-              - Prototyping (CAD and Create, using existing parts)
-              - Iterating 
-              - Implementing 
+              Models the robot in 3D CAD (commonly Onshape, which is free and cloud-based for FRC teams, or Fusion/SolidWorks) before anything is cut. 
+              Good CAD prevents costly build mistakes and lets the team plan packaging, weight, and motion.
             </p>
           </li>
           <li class="cardEn">
@@ -373,7 +371,7 @@ window.onload = function () {
             </div>
             <h2 class="text-black font-extrabold">Electrical</h2>
             <p class="px-5 text-center text-white text-size">
-              Elec Desc.
+            
             </p>
           </li>
           <li class="cardEn">
@@ -382,7 +380,9 @@ window.onload = function () {
             </div>
             <h2 h2 class="text-black font-extrabold">Mechanical</h2>
             <p class="px-5 text-center text-white text-size">
-              Mechanical Subteam desc
+              The Mechanical subteam designs and constructs the physical robot. 
+              This team is trained in CAD, manufacturing, and assembly to plan and build a robot in preparation for competition. 
+              The Mechanical subteam works closely with Programming and Scouting and Strategy to prepare a strategically efficient design and ensure proper communication between the robot's hardware and software.
             </p>
           </li>
           <li class="cardEn">
@@ -391,7 +391,8 @@ window.onload = function () {
             </div>
             <h2 class="text-black font-extrabold">Programming</h2>
             <p class="px-5 text-center text-white text-size">
-              Programming Subteam desc.
+             Writes the robot code using WPILib (the official library, supporting Java, C++, and Python) in a VS Code-based environment, plus the FRC Driver Station software. 
+             Programmers handle drivetrain control, autonomous routines, sensor integration, and increasingly vision (cameras like Limelight or PhotonVision).
             </p>
           </li>
           <li class="cardEn">
@@ -400,7 +401,7 @@ window.onload = function () {
             </div>
             <h2 class="text-black font-extrabold">Fundraising</h2>
             <p class="px-5 text-center text-white text-size">
-              
+              Manages the budget, fundraising and sponsorships, registration logistics, and travel. Teams often raise tens of thousands of dollars per season — this work is essential.
             </p>
           </li>
         </ul>
