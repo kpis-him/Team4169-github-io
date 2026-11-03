@@ -10,6 +10,7 @@ import onicon from "../components/icons/IconOn.vue";
 import ctricon from "../components/icons/IconCTR.vue";
 import sicon from "../components/icons/IconS.vue";
 import micon from "../components/icons/IconM.vue";
+import ficon from "../components/icons/IconF.vue";
 window.onload = function () {
   const formbar = document.getElementById("formbar");
   const openPopupButton = document.getElementById("open-popup-btn");
