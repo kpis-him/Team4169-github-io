@@ -9,6 +9,7 @@ import iconwpi from "../components/icons/IconJava.vue";
 import onicon from "../components/icons/IconOn.vue";
 import ctricon from "../components/icons/IconCTR.vue";
 import sicon from "../components/icons/IconS.vue";
+import micon from "../components/icons/IconM.vue";
 window.onload = function () {
   const formbar = document.getElementById("formbar");
   const openPopupButton = document.getElementById("open-popup-btn");
@@ -376,7 +377,7 @@ window.onload = function () {
           </li>
           <li class="cardEn">
             <div class="img">
-              <ctricon />
+              <micon />
             </div>
             <h2 h2 class="text-black font-extrabold">Mechanical</h2>
             <p class="px-5 text-white text-size">
