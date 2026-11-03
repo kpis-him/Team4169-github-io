@@ -351,6 +351,7 @@ window.onload = function () {
   <main id="main" class="flex px-6 mb-10">
     <section>
       <div class="wrapper">
+      <p class="bg-gray-500 hover:bg-gray-600 active:bg-gray-600 p-5 rounded shadow-md font-extrabold text-blue-200 m-5 text-base"> Scroll &rarr </p>
         <ul class="carousel">
           <li class="cardEn">
             <div class="img">
