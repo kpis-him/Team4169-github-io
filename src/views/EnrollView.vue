@@ -351,9 +351,6 @@ window.onload = function () {
   <main id="main" class="flex px-6 mb-10">
     <section>
       <div class="wrapper">
-        <i id="left" class="fa-solid fa-angle-left text-center">
-          <left />
-        </i>
         <ul class="carousel">
           <li class="cardEn">
             <div class="img">
