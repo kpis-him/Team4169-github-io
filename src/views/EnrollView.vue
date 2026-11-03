@@ -370,8 +370,9 @@ window.onload = function () {
               <pyicon />
             </div>
             <h2 class="text-black font-extrabold">Electrical</h2>
-            <p class="px-5 text-center text-white text-size">
-            
+            <p class="px-5 text-white text-size">
+             Wires the control system: the roboRIO (the robot's brain), a Power Distribution Hub (PDH) or Panel (PDP), motor controllers (e.g., Talon FX inside the Kraken X60/Falcon 500, or SPARK MAX/Flex driving NEO motors), the radio, breakers, the 12V battery, and sensors. 
+             Clean, reliable wiring is a hallmark of strong teams.
             </p>
           </li>
           <li class="cardEn">
