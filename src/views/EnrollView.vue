@@ -360,7 +360,7 @@ window.onload = function () {
               <onicon />
             </div>
             <h2 class="text-black font-extrabold">Design</h2>
-            <p class="px-5 text-center text-white text-size">
+            <p class="px-5 text-white text-size">
               Models the robot in 3D CAD (commonly Onshape, which is free and cloud-based for FRC teams, or Fusion/SolidWorks) before anything is cut. 
               Good CAD prevents costly build mistakes and lets the team plan packaging, weight, and motion.
             </p>
@@ -380,7 +380,7 @@ window.onload = function () {
               <ctricon />
             </div>
             <h2 h2 class="text-black font-extrabold">Mechanical</h2>
-            <p class="px-5 text-center text-white text-size">
+            <p class="px-5 text-white text-size">
               The Mechanical subteam designs and constructs the physical robot. 
               This team is trained in CAD, manufacturing, and assembly to plan and build a robot in preparation for competition. 
               The Mechanical subteam works closely with Programming and Scouting and Strategy to prepare a strategically efficient design and ensure proper communication between the robot's hardware and software.
@@ -391,7 +391,7 @@ window.onload = function () {
               <iconwpi />
             </div>
             <h2 class="text-black font-extrabold">Programming</h2>
-            <p class="px-5 text-center text-white text-size">
+            <p class="px-5 text-white text-size">
              Writes the robot code using WPILib (the official library, supporting Java, C++, and Python) in a VS Code-based environment, plus the FRC Driver Station software. 
              Programmers handle drivetrain control, autonomous routines, sensor integration, and increasingly vision (cameras like Limelight or PhotonVision).
             </p>
@@ -401,7 +401,7 @@ window.onload = function () {
               <iconrpi />
             </div>
             <h2 class="text-black font-extrabold">Fundraising</h2>
-            <p class="px-5 text-center text-white text-size">
+            <p class="px-5 text-white text-size">
               Manages the budget, fundraising and sponsorships, registration logistics, and travel. Teams often raise tens of thousands of dollars per season — this work is essential.
             </p>
           </li>
