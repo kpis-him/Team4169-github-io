@@ -35,12 +35,6 @@ import { RouterLink, RouterView } from "vue-router";
         class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
       ></div>
       <li>
-        <router-link to="/team">Our Team</router-link>
-      </li>
-      <div
-        class="inline-block w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
-      ></div>
-      <li>
         <router-link to="/enroll">Subteams</router-link>
       </li>
       <div
@@ -98,10 +92,6 @@ import { RouterLink, RouterView } from "vue-router";
             </li>
             <div class="bg-neutral-100 opacity-100 dark:opacity-50"></div>
             <li>
-              <router-link to="/team">Our Team</router-link>
-            </li>
-            <div class="bg-neutral-100 opacity-100 dark:opacity-50"></div>
-            <li>
               <router-link to="/enroll">Subteams</router-link>
             </li>
             <div class="bg-neutral-100 opacity-100 dark:opacity-50"></div>
@@ -123,7 +113,7 @@ import { RouterLink, RouterView } from "vue-router";
           >
             <img src="./assets/instagram.png" alt="Instagram" class="w-8 h-8" />
           </a>
-          <a href="mailto:programmaticteams@gmail.com">
+          <a href="mailto:paul_shultz@lsrhs.net">
             <img src="./assets/gmail.png" alt="Gmail" class="w-8 h-7" />
           </a>
         </div>
